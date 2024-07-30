@@ -1,5 +1,5 @@
 {% set name = "kinisi" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kinisi-{{ version }}.tar.gz
-  sha256: cb5ac32e097372436bf2aa7b19e85c40b66e5a4eec4afef5bcb26727e5ecb0ad
+  sha256: 73cfe066e84efd71356600a87d25c27bb9c98e8d7a0d7c4db0923d0b7912d316
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - numpy
+    - numpy >=1.26.4
     - scikit-learn
     - scipy >=1.9.3
     - tqdm
