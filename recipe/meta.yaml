@@ -33,6 +33,7 @@ requirements:
     - tqdm
     - uravu >=1.3.0
     - statsmodels >=0.14.0
+    - beautifulsoup4
 
 test:
   imports:
