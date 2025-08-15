@@ -1,0 +1,22 @@
+From 30493d25ea40174fd6046042754800706cc24768 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Jan=20Jan=C3=9Fen?= <janssen@mpie.de>
+Date: Fri, 15 Aug 2025 21:53:35 +0200
+Subject: [PATCH] replace bs4 with beautifulsoup4
+
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 6aaf19c..f46eb49 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -39,7 +39,7 @@ dependencies = [
+     'statsmodels>=0.14.0',
+     'scipp>=24.8.0',
+     'uncertainties>=3.2.3',
+-    'bs4>=0.0.2',
++    'beautifulsoup4>=0.0.2',
+     'emcee>=3.1.6',
+     'dynesty>=2.1.5'
+ ]
