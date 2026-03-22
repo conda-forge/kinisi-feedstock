@@ -1,5 +1,5 @@
 {% set name = "kinisi" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kinisi-{{ version }}.tar.gz
-  sha256: 31a6937fadfc45baed6777458c45ec30ebb804e289e3eed9e3e2abc6c2b51860
+  sha256: 31ac47de0361ccb88039202d3484c8fef6fdd9dcb598bff43f02a2f8cba9936f
   patches:
     - bs4.patch
 
